@@ -1,16 +1,11 @@
-{
-  "name": "greeting-config",
-  "profiles": [
-     "default"
-  ],
-  "label": "master",
-  "propertySources": [ 
-      {
-         "name":  "https://github.com/rdmullpiv/app-config.git/greeting-config.yml",
-	 "source":  {
-            "security.basic.enabled":  false,
-            "management.security.enabled":  false	
-         }
-      }
-  ]
-}
+--- 
+label: master
+name: greeting-config
+profiles: 
+  - default
+propertySources: 
+  - 
+    name: "https://github.com/rdmullpiv/app-config.git/greeting-config.yml"
+    source: 
+      management.security.enabled: false
+      security.basic.enabled: false
