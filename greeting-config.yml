@@ -5,10 +5,6 @@ profiles:
   - default
 propertySources: 
   - 
-    logging: 
-      level: 
-        io: 
-          pivotal: INFO
     name: "https://github.com/rdmullpiv/app-config.git/greeting-config.yml"
     source: 
       management.security.enabled: false
