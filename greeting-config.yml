@@ -13,3 +13,5 @@ propertySources:
     source: 
       management.security.enabled: false
       security.basic.enabled: false
+      security.user.name: admin
+      security.user.password: secret
